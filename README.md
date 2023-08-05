@@ -9,12 +9,13 @@ Android Emulator Screenshots: (Home and detail pages )
 
 iOS Emulator Screenshots: (Home and detail pages )
 
-Firstly Add needed dependencies to build.gradles.kts of shared file:
 ![Simulator Screenshot - iPhone 14 Pro - 2023-08-05 at 02 08 49](https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/24919c7a-7893-4836-b690-ed673a1a5751)
 ![Simulator Screenshot - iPhone 14 Pro - 2023-08-05 at 02 08 55](https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/f304213e-8b71-48a4-8368-d535f3219987)
 ![Simulator Screenshot - iPhone 14 Pro - 2023-08-05 at 02 09 04](https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/e425b01e-e254-48b8-acfb-51be5bea9413)
 
 
+
+Firstly Add needed dependencies to build.gradles.kts of shared file:
 
 
 Add below serilazition code to plugins in build.gradles.kts file:
