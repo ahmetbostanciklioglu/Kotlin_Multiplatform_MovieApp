@@ -15,7 +15,6 @@ Just click on code button to create a new repo starting from this project.
 - Following Clean Architecture approach
 - Following MVVM Architectural Design Pattern
 - Coroutines -Dispatchers  A concurrency design pattern library
-- Flow - Built on top of coroutines and is stream of data that can be computed asynchronously
 - Hilt - Dependency Injection framework
 - OkHttp3 - Network interceptor
 - Ktor-client used for making HTTP requests to web services
