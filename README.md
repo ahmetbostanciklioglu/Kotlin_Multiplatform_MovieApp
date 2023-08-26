@@ -1,76 +1,51 @@
-# Kotlin_Multiplatform_MovieApp
+# **Kotlin Multiplatform Mobile Movie App (KMM)** 🧞‍
+
+A simple Android MovieApp that lets you create an Kotlin Multiplatform Mobile project quickly.
 
 
-You can download and examine the project on your desktop.
+### **How to Use** 👣
 
-Android Emulator Screenshots: (Home and detail pages )
-![Screenshot_20230805_182531](https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/74bf30ec-ba3f-4230-91c6-5bc474f82650)
-![Screenshot_20230805_182552](https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/e0f6c80c-a107-46fb-8920-8908c82d6f65)
-
-iOS Emulator Screenshots: (Home and detail pages )
-
-![Simulator Screenshot - iPhone 14 Pro - 2023-08-05 at 02 08 49](https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/24919c7a-7893-4836-b690-ed673a1a5751)
-![Simulator Screenshot - iPhone 14 Pro - 2023-08-05 at 02 08 55](https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/f304213e-8b71-48a4-8368-d535f3219987)
-![Simulator Screenshot - iPhone 14 Pro - 2023-08-05 at 02 09 04](https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/e425b01e-e254-48b8-acfb-51be5bea9413)
+Just click on code button to create a new repo starting from this project.
 
 
+## **Features** 🕹
 
-Firstly Add needed dependencies to build.gradles.kts of shared file:
-
-
-Add below serilazition code to plugins in build.gradles.kts file:
-'''
-plugins {
-
-  //Kotlinx Serialization
-    kotlin("plugin.serialization") version "1.8.0"
-}
-'''
-
-Add below dependencies to commonMain:
-'''
-val commonMain by getting {
-            dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
-                implementation("io.ktor:ktor-client-core:$ktorVersion")
-                implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
-                implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
-
-                //Use api so that the android app can use it as well
-                api("io.insert-koin:koin-core:$koinVersion")
-            }
-}
-'''
-
-Add below dependencies to androidMain:
-'''
-val androidMain by getting {
-            dependencies {
-                implementation("io.ktor:ktor-client-android:$ktorVersion")
-
-                api("io.insert-koin:koin-android:$koinVersion")
-            }
-}
-'''
-
-Add below dependencies to iosMain:
-'''
-val iosMain by getting {
-            dependencies {
-                implementation("io.ktor:ktor-client-darwin:$ktorVersion")
-            }
-}
-'''
-
-Later on click Sync Now button.
-
-Add codes to  shared > commonMain which are used with both platforms. When you finish common platform codes, design android Ui from AndroidMain file, and design iOSApp from iOSApp. 
-
-Open iOSApp: 
-'''
-iOSApp > iOSApp.xcodeproj right click and Open In Xcode 
-'''
-And then modify needed according to github codes in your project.
+- Kotlin and Swift code template
+- Jetpack Compose and SwiftUI 
+- Following Clean Architecture approach
+- Following MVVM Architectural Design Pattern
+- Coroutines -Dispatchers  A concurrency design pattern library
+- Flow - Built on top of coroutines and is stream of data that can be computed asynchronously
+- Hilt - Dependency Injection framework
+- OkHttp3 - Network interceptor
+- Ktor-client used for making HTTP requests to web services
+- Ktor content negotitaion allows the client and the server to agree on the format of the data being exchanged.
+- Ktor serialization - JSON library
+- Material Components - Material Design
+- Kotlin DSL - Alternative syntax to the Groovy DSL
+- Navigation - Navigate through the app
+- Dark/Light Theme - Support dark/light themes
+- Koin - Dependency Inject framework
 
 
-Congratulations! You develop a kotlin multiplatform app for Android and iOS devies.
+## **Under Development** 🚧
+
+- ~~Use Kotlin DSL~~
+- ~~Use Ktor. To see changes, click <span style="color: blue;">[here.](https://ktor.io/docs/getting-started-ktor-client-multiplatform-mobile.html)</span>~~
+- ~~Use Kon. To see changes, click <span style="color: blue;">[here.](https://insert-koin.io/docs/quickstart/android/)</span>~~
+- ~~Add coroutines and flow. To see changes, click <span style="color: blue;">[here.](https://developer.android.com/kotlin/coroutines)</span>~~
+
+##  **References** 🧷
+
+<span style="color: blue;">[Video instruction of project](https://www.youtube.com/watch?v=zHrXSWBH3Ms)</span>
+
+
+##  **Contributing** 🤝
+
+Feel free to open an issue or submit a pull request for any bugs/improvements.
+
+
+
+##  **Result**  📺
+
+
