@@ -44,7 +44,12 @@ Just click on code button to create a new repo starting from this project.
 Feel free to open an issue or submit a pull request for any bugs/improvements.
 
 
-
 ##  **Result**  📺
 
+**iOS Simulator - iPhone 14 Pro** 
+
+https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/03a422cb-7387-4d0a-9a25-cfd555a6c33d
+
+
+**Android Emulator - Pixel 3A** 
 
