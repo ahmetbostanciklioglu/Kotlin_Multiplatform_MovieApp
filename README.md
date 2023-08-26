@@ -53,3 +53,6 @@ https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/401
 
 **Android Emulator - Pixel 3A** 
 
+https://github.com/ahmetbostanciklioglu/Kotlin_Multiplatform_MovieApp/assets/40151328/ca4a731f-7547-477e-88fe-c6f96b387ef7
+
+
